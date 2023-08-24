@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Face Recoginition</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1>Recognize My Family</h1>
+        <img src="https://th.bing.com/th/id/OIP.xkrCVnmVuZWkFZHDD8I2gQHaE8?pid=ImgDet&w=2250&h=1500&rs=1" class="img1">
+        <br> <div id="camera"></div> <br> 
+        <div id="result"></div><br> <br>
+        <button onclick="take_snapshot()">Take a picture</button><br><br>
+        <button onclick="check()">Identify the member</button><br>
+        <p id="result_label"></p>
+    </center>
+
+</body>
+ <script src="main.js"></script>
+</html>

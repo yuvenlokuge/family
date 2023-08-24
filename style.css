@@ -1,0 +1,33 @@
+ .img1
+ {
+  width: 400px;
+  height: 350px;
+  border: 5px ridge black;
+  
+ }
+
+ #camera
+ {
+    width: 400;
+    height: 400;
+ }
+
+ body{
+   background:linear-gradient(aquamarine,blueviolet) ;
+ }
+
+ button
+ {
+  font-size: 20px;
+  background-color: cornflowerblue;
+  padding: 5px;
+  border: 2px solid white;
+ }
+
+ p
+ {
+   font-size: 25px;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+   
+ }
